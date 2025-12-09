@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
+@theme inline {
+  /* ===== FONTS ===== */
+  --font-sora: var(--font-sora), ui-sans-serif, system-ui, sans-serif;
+  --font-playball: var(--font-playball), cursive;
+  --font-roboto: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+  --font-jakarta: var(--font-plus-jakarta-sans), ui-sans-serif, system-ui,
+    sans-serif;
+
+  /* ===== PRIMARY COLORS (Green Accent) ===== */
+  --color-primary: #a3e635;
+  --color-primary-hover: #84cc16;
+  --color-primary-light: #b7e08a;
+  --color-primary-dark: #65a30d;
+
+  /* ===== BACKGROUND COLORS ===== */
+  --color-bg-white: #ffffff;
+  --color-bg-light: #f9fafb;
+  --color-bg-gray: #f5f5f5;
+  --color-bg-header: #f6f3f3;
+  --color-bg-dark: #1a1a1a;
+  --color-bg-darker: #0f0f0f;
+  --color-bg-dark-2: #111111;
+  --color-bg-pinkish: #ffeeee;
+
+  /* ===== TEXT COLORS ===== */
+  --color-text-heading: #171717;
+  --color-text-body: #525252;
+  --color-text-muted: #737373;
+  --color-text-light: #a3a3a3;
+  --color-text-white: #ffffff;
+  --color-text-dark-muted: #d4d4d4;
+  --color-text-logo: #111111;
+  --color-text-nav: #7f879e;
+  --color-text-dark: #111111;
+  --color-text-black: #000000;
+  --color-text-orangish: #f59a74;
+  --color-text-blackish: #1b2124;
+  --color-text-blueish: #3860e2;
+  --color-text-blueish-2: #16112f;
+  --color-text-whitish: #f3f3f3;
+
+  /* ===== BORDER COLORS ===== */
+  --color-border-light: #e5e5e5;
+  --color-border-medium: #d4d4d4;
+  --color-border-dark: #404040;
+  --color-border-black: #000000;
+
+  /* ===== ACCENT COLORS ===== */
+  --color-star: #facc15;
+  --color-star-empty: #e5e5e5;
+
+  /* ===== CARD COLORS ===== */
+  --color-card-bg: #ffffff;
+  --color-card-shadow: rgba(0, 0, 0, 0.08);
+
+  /* ===== BUTTON COLORS ===== */
+  --color-btn-primary-bg: #b7e08a;
+  --color-btn-primary-text: #111111;
+  --color-btn-primary-hover: #a3d475;
+  --color-btn-secondary-bg: #171717;
+  --color-btn-secondary-text: #ffffff;
+  --color-btn-secondary-hover: #262626;
+  --color-btn-outline-border: #171717;
+  --color-btn-outline-text: #171717;
+}
+
+/* ===== BASE STYLES ===== */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg-white);
+  color: var(--color-text-body);
+}
+
+details > div {
+  animation: slideDown 0.3s ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
