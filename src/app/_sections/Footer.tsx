@@ -4,32 +4,32 @@ const footerLinks = [
   {
     title: "Pages",
     hrefs: [
-      { label: "Listings", href: "/listings" },
-      { label: "About us", href: "/about" },
-      { label: "Blog", href: "/blog" },
+      { label: "Listings", href: "#" },
+      { label: "About us", href: "#" },
+      { label: "Blog", href: "#" },
     ],
   },
   {
     title: "Support",
     hrefs: [
-      { label: "Properties", href: "/properties" },
-      { label: "FAQ", href: "/faq" },
-      { label: "Contact Us", href: "/contact" },
+      { label: "Properties", href: "#" },
+      { label: "FAQ", href: "#" },
+      { label: "Contact Us", href: "#" },
     ],
   },
   {
     title: "Resources",
     hrefs: [
-      { label: "Style Guide", href: "/style-guide" },
-      { label: "Changelog", href: "/changelog" },
-      { label: "Licensing", href: "/licensing" },
-      { label: "Instructions", href: "/instructions" },
+      { label: "Style Guide", href: "#" },
+      { label: "Changelog", href: "#" },
+      { label: "Licensing", href: "#" },
+      { label: "Instructions", href: "#" },
     ],
   },
   {
     title: "Download",
     hrefs: [
-      { label: "Official Website", href: "/" },
+      { label: "Official Website", href: "#" },
       { label: "Play Store", href: "https://play.google.com" },
       { label: "App Store", href: "https://apps.apple.com" },
     ],
@@ -43,7 +43,7 @@ export default function Footer() {
         <div className="w-full flex flex-col md:flex-row md:justify-between gap-8 md:gap-6 lg:gap-8 mb-6 md:mb-0">
           <div className="flex flex-col gap-3 md:gap-4 md:max-w-[200px] lg:max-w-[240px] xl:max-w-[280px]">
             <Link
-              href="/"
+              href="#"
               className="font-playball text-[24px] md:text-[26px] lg:text-[28px] xl:text-[32px] font-normal text-white"
             >
               AyEstate

@@ -36,7 +36,7 @@ export default function CTA() {
           Find out why Astheris are Australia&apos;s trusted Digital Agency.
         </p>
         <Link
-          href="/contact"
+          href="#"
           className="mt-4 md:mt-5 xl:mt-6 flex items-center justify-center gap-2 md:gap-[10px] px-6 md:px-7 xl:px-8 h-[48px] md:h-[52px] xl:h-[56px] bg-btn-primary-bg text-text-blueish-2 text-[16px] md:text-[17px] xl:text-[18px] font-semibold rounded-full hover:bg-btn-primary-hover transition-colors duration-200"
         >
           Start A Project

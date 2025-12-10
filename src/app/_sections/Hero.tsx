@@ -15,13 +15,13 @@ export default function Hero() {
         </p>
         <div className="flex items-center gap-3 md:gap-4">
           <Link
-            href="/listings"
+            href="#"
             className="flex items-center justify-center w-[130px] md:w-[140px] xl:w-[153px] h-[42px] md:h-[45px] xl:h-[48px] bg-btn-primary-bg text-text-dark font-sora text-[14px] md:text-[15px] xl:text-[16px] font-semibold rounded-[12px] hover:bg-btn-primary-hover transition-colors duration-200"
           >
             Explore Now
           </Link>
           <Link
-            href="/about"
+            href="#"
             className="flex items-center justify-center w-[110px] md:w-[120px] xl:w-[129px] h-[42px] md:h-[45px] xl:h-[48px] bg-transparent border border-border-black text-text-black font-sora text-[14px] md:text-[15px] xl:text-[16px] font-normal rounded-[12px] hover:bg-text-heading hover:text-text-white transition-colors duration-200"
           >
             Learn More

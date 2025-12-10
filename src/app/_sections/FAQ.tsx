@@ -56,7 +56,7 @@ function FAQItem({
           {answer}
         </p>
         <Link
-          href="/faq"
+          href="#"
           className="text-[16px] md:text-[17px] xl:text-[18px] font-bold text-text-blueish hover:underline text-left"
         >
           Read More
@@ -104,7 +104,7 @@ export default function FAQ() {
           </div>
         </div>
         <Link
-          href="/services"
+          href="#"
           className="mt-8 md:mt-10 lg:mt-12 xl:mt-[50px] flex items-center justify-center w-[160px] md:w-[175px] xl:w-[190px] h-[48px] md:h-[52px] xl:h-[56px] bg-btn-primary-bg text-text-dark font-sora text-[16px] md:text-[17px] xl:text-[18px] font-semibold rounded-[12px] hover:bg-btn-primary-hover transition-colors duration-200"
         >
           Give a Quote

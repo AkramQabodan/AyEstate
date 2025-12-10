@@ -65,13 +65,13 @@ export default function Services() {
         </div>
         <div className="w-full flex items-center gap-4 md:gap-5 xl:gap-6 self-baseline">
           <Link
-            href="/services"
+            href="#"
             className="flex items-center justify-center w-[140px] md:w-[150px] xl:w-[160px] h-[48px] md:h-[52px] xl:h-[56px] bg-btn-primary-bg text-text-dark font-sora text-sm md:text-base font-semibold rounded-[12px] hover:bg-btn-primary-hover transition-colors duration-200"
           >
             Learn More
           </Link>
           <Link
-            href="/contact"
+            href="#"
             className="flex items-center gap-3 md:gap-4 font-normal font-roboto text-sm md:text-base"
           >
             Contact

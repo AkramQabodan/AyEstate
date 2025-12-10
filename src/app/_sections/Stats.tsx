@@ -35,7 +35,7 @@ export default function Stats() {
               satisfaction is our top priority.
             </p>
             <Link
-              href="/services"
+              href="#"
               className="flex items-center justify-center w-[140px] md:w-[150px] xl:w-[160px] h-[48px] md:h-[52px] xl:h-[56px] bg-btn-primary-bg text-text-dark font-sora text-sm md:text-base font-semibold rounded-[12px] hover:bg-btn-primary-hover transition-colors duration-200"
             >
               Learn More

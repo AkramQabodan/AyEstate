@@ -96,7 +96,7 @@ export default function Properties() {
                 {property.price}
               </p>
               <Link
-                href={`/properties/${property.id}`}
+                href="#"
                 className="text-[14px] md:text-[15px] xl:text-[16px] font-normal w-full h-9 md:h-10 border rounded-[12px] flex items-center justify-center font-roboto"
               >
                 View Details
