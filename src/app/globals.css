@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
 @theme inline {
+  /* ===== BREAKPOINTS ===== */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1365px;
+
   /* ===== FONTS ===== */
   --font-sora: var(--font-sora), ui-sans-serif, system-ui, sans-serif;
   --font-playball: var(--font-playball), cursive;
